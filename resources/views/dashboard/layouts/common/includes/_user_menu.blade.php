@@ -105,56 +105,39 @@
         <div class="separator my-2"></div>
         <!--end::Menu separator-->
         <!--begin::Menu item-->
-        <div class="menu-item px-5" data-kt-menu-trigger="hover" data-kt-menu-placement="left-start">
+        <div class="menu-item px-5" data-kt-menu-trigger="hover" data-kt-menu-placement="{{leftStartDirectionClass()}}">
             <a href="#" class="menu-link px-5">
-                <span class="menu-title position-relative">Language
-                    <span
-                        class="fs-8 rounded bg-light px-3 py-2 position-absolute translate-middle-y top-50 end-0">English
+                <span class="menu-title position-relative">
+                    Languages
+                    <span class="fs-8 rounded bg-light px-3 py-2 position-absolute translate-middle-y top-50 end-0">
+                        {{ LaravelLocalization::getCurrentLocaleNative() }}
+                        @if(App::getLocale() == 'ar')
+                        <img class="w-15px h-15px rounded-1 ms-2" src="{{ asset('dashboard/assets/media/flags/egypt.svg') }}" />
+                        @elseif(App::getLocale() == 'en')
                         <img class="w-15px h-15px rounded-1 ms-2"
-                            src="{{asset('dashboard/assets/media/flags/united-states.svg')}}" alt="" /></span></span>
+                            src="{{ asset('dashboard/assets/media/flags/united-states.svg') }}" />
+                        @endif
+                    </span>
+                </span>
             </a>
             <!--begin::Menu sub-->
             <div class="menu-sub menu-sub-dropdown w-175px py-4">
                 <!--begin::Menu item-->
+                @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                 <div class="menu-item px-3">
-                    <a href="../../demo13/dist/account/settings.html" class="menu-link d-flex px-5 active">
+                    <a class="menu-link d-flex px-5 active" rel="alternate" hreflang="{{ $localeCode }}"
+                        href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
                         <span class="symbol symbol-20px me-4">
-                            <img class="rounded-1" src="{{asset('dashboard/assets/media/flags/united-states.svg')}}"
-                                alt="" />
-                        </span>English</a>
+                            @if($properties['native'] == 'العربية')
+                                <img class="rounded-1" src="{{ asset('dashboard/assets/media/flags/egypt.svg') }}" />
+                            @elseif($properties['native'] == "English")
+                            <img class="rounded-1" src="{{ asset('dashboard/assets/media/flags/united-states.svg') }}" />
+                            @endif
+                        </span>
+                        {{ $properties['native'] }}
+                    </a>
                 </div>
-                <!--end::Menu item-->
-                <!--begin::Menu item-->
-                <div class="menu-item px-3">
-                    <a href="../../demo13/dist/account/settings.html" class="menu-link d-flex px-5">
-                        <span class="symbol symbol-20px me-4">
-                            <img class="rounded-1" src="{{asset('dashboard/assets/media/flags/spain.svg')}}" alt="" />
-                        </span>Spanish</a>
-                </div>
-                <!--end::Menu item-->
-                <!--begin::Menu item-->
-                <div class="menu-item px-3">
-                    <a href="../../demo13/dist/account/settings.html" class="menu-link d-flex px-5">
-                        <span class="symbol symbol-20px me-4">
-                            <img class="rounded-1" src="{{asset('dashboard/assets/media/flags/germany.svg')}}" alt="" />
-                        </span>German</a>
-                </div>
-                <!--end::Menu item-->
-                <!--begin::Menu item-->
-                <div class="menu-item px-3">
-                    <a href="../../demo13/dist/account/settings.html" class="menu-link d-flex px-5">
-                        <span class="symbol symbol-20px me-4">
-                            <img class="rounded-1" src="{{asset('dashboard/assets/media/flags/japan.svg')}}" alt="" />
-                        </span>Japanese</a>
-                </div>
-                <!--end::Menu item-->
-                <!--begin::Menu item-->
-                <div class="menu-item px-3">
-                    <a href="../../demo13/dist/account/settings.html" class="menu-link d-flex px-5">
-                        <span class="symbol symbol-20px me-4">
-                            <img class="rounded-1" src="{{asset('dashboard/assets/media/flags/france.svg')}}" alt="" />
-                        </span>French</a>
-                </div>
+                @endforeach
                 <!--end::Menu item-->
             </div>
             <!--end::Menu sub-->

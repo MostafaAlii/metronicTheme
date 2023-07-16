@@ -1,7 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Dashboard;
+use Illuminate\Support\Facades\Route;
+use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,8 +15,14 @@ use App\Http\Controllers\Dashboard;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::get('dash', [Dashboard\DashboardController::class, 'index']);
+
+Route::group([
+        'prefix' => LaravelLocalization::setLocale(),
+        'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
+    ], function(){
+        Route::get('/', function () {
+            return view('welcome');
+        });
+        Route::get('dash', [Dashboard\DashboardController::class, 'index']);
+});
