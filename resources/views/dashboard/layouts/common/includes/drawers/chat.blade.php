@@ -269,7 +269,7 @@
                             <!--end::Details-->
                             <!--begin::Avatar-->
                             <div class="symbol symbol-35px symbol-circle">
-                                <img alt="Pic" src="assets/media/avatars/150-26.jpg" />
+                                <img alt="Pic" src="{{ asset('dashboard/assets/media/avatars/150-26.jpg') }}" />
                             </div>
                             <!--end::Avatar-->
                         </div>

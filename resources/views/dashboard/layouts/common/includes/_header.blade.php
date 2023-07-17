@@ -2187,7 +2187,7 @@
                                         <!--begin::Illustration-->
                                         <div class="text-center px-4">
                                             <img class="mw-100 mh-200px" alt="image" src="{{ asset("
-                                                assets/dashboard/media/illustrations/unitedpalms-1/1.png") }}" />
+                                                dashboard/assets/media/illustrations/unitedpalms-1/1.png") }}" />
                                         </div>
                                         <!--end::Illustration-->
                                     </div>

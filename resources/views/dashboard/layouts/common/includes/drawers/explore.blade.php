@@ -120,7 +120,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo1.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo1.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo1"
@@ -136,7 +136,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo2.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo2.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo2"
@@ -152,7 +152,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo3.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo3.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo3"
@@ -168,7 +168,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo4.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo4.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo4"
@@ -184,7 +184,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo5.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo5.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo5"
@@ -200,7 +200,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo6.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo6.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo6"
@@ -216,7 +216,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo7.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo7.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo7"
@@ -232,7 +232,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo8.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo8.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo8"
@@ -248,7 +248,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo9.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo9.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo9"
@@ -264,7 +264,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo10.png" alt="demo" class="w-100 opacity-25" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo10.png') }}" alt="demo" class="w-100 opacity-25" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon
@@ -280,7 +280,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo11.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo11.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo11"
@@ -296,7 +296,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo12.png" alt="demo" class="w-100 opacity-25" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo12.png') }}" alt="demo" class="w-100 opacity-25" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon
@@ -312,7 +312,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-success rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo13.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo13.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo13"
@@ -328,7 +328,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo14.png" alt="demo" class="w-100 opacity-25" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo14.png') }}" alt="demo" class="w-100 opacity-25" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon
@@ -344,7 +344,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo15.png" alt="demo" class="w-100 opacity-25" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo15.png') }}" alt="demo" class="w-100 opacity-25" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon
@@ -360,7 +360,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo16.png" alt="demo" class="w-100 opacity-25" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo16.png') }}" alt="demo" class="w-100 opacity-25" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon
@@ -376,7 +376,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo17.png" alt="demo" class="w-100 opacity-25" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo17.png') }}" alt="demo" class="w-100 opacity-25" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon
@@ -392,7 +392,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo18.png" alt="demo" class="w-100 opacity-25" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo18.png') }}" alt="demo" class="w-100 opacity-25" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon
@@ -408,7 +408,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo19.png" alt="demo" class="w-100 opacity-25" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo19.png') }}" alt="demo" class="w-100 opacity-25" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon
@@ -424,7 +424,7 @@
                                 <div
                                     class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="assets/media/demos/demo20.png" alt="demo" class="w-100 opacity-25" />
+                                        <img src="{{ asset('dashboard/assets/media/demos/demo20.png') }}" alt="demo" class="w-100 opacity-25" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon

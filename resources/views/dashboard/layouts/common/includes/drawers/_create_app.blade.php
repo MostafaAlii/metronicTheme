@@ -565,10 +565,10 @@
                                             <!--end::Input-->
                                             <!--begin::Card logos-->
                                             <div class="position-absolute translate-middle-y top-50 end-0 me-5">
-                                                <img src="assets/media/svg/card-logos/visa.svg" alt="" class="h-25px" />
-                                                <img src="assets/media/svg/card-logos/mastercard.svg" alt=""
+                                                <img src="{{ asset('dashboard/assets/media/svg/card-logos/visa.svg') }}" alt="" class="h-25px" />
+                                                <img src="{{ asset('dashboard/assets/media/svg/card-logos/mastercard.svg') }}" alt=""
                                                     class="h-25px" />
-                                                <img src="assets/media/svg/card-logos/american-express.svg" alt=""
+                                                <img src="{{ asset('dashboard/assets/media/svg/card-logos/american-express.svg') }}" alt=""
                                                     class="h-25px" />
                                             </div>
                                             <!--end::Card logos-->
@@ -700,7 +700,7 @@
                                     <!--end::Description-->
                                     <!--begin::Illustration-->
                                     <div class="text-center px-4 py-15">
-                                        <img src="assets/media/illustrations/unitedpalms-1/9.png" alt=""
+                                        <img src="{{ asset('dashboard/assets/media/illustrations/unitedpalms-1/9.png') }}" alt=""
                                             class="w-100 mh-300px" />
                                     </div>
                                     <!--end::Illustration-->
