@@ -1,0 +1,1 @@
+<button class="btn btn-primary" value="{{$id}}">Edit</button>

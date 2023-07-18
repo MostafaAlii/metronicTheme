@@ -30,6 +30,12 @@
 <script src="{{asset('dashboard/assets/js/custom/modals/create-app.js')}}"></script>
 <script src="{{asset('dashboard/assets/js/custom/modals/upgrade-plan.js')}}"></script>
 <!--end::Page Custom Javascript-->
+<!-- Start Datatables -->
+<script src="{{ asset("dashboard/assets/js/datatables.min.js") }}"></script>
+<script src="{{ asset("dashboard/assets/js/jquery.dataTables.min.js") }}"></script>
+<script src="{{ asset("dashboard/assets/js/dataTables.buttons.min.js") }}"></script>
+<script src="{{url('vendor/datatables/buttons.server-side.js')}}"></script>
+<!-- End DataTables -->
 <!--end::Javascript-->
 @stack('js')
 </body>

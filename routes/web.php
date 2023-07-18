@@ -25,4 +25,5 @@ Route::group([
             return view('welcome');
         });
         Route::get('dash', [Dashboard\DashboardController::class, 'index']);
+        Route::get('users', [Dashboard\MohammedController::class, 'index']);
 });
