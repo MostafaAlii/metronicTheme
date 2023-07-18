@@ -39,6 +39,7 @@ License: For each use you must have a valid license purchased only from above li
     <!--end::Fonts-->
     <!--begin::Page Vendor Stylesheets(used by this page)-->
     <link href="{{asset('dashboard/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("dashboard/assets/css/jquery.dataTables.min.css") }}" rel="stylesheet" type="text/css" />
     @if(app()->getLocale()=='ar')
         <link href="{{asset('dashboard/assets/plugins/custom/prismjs/prismjs.bundle.rtl.css')}}" rel="stylesheet" type="text/css" />
         <link href="{{asset('dashboard/assets/plugins/global/plugins.bundle.rtl.css')}}" rel="stylesheet" type="text/css" />
